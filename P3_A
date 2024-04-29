@@ -79,7 +79,7 @@ R1 (config-router)# passive-interface loopback 50
 R1 (config-router)# passive-interface loopback 51
 R1 (config-router)# passive-interface loopback 70
 R2 (config)# router rip
-R2 (config-router)# passive-interface loopback C
+R2 (config-router)# passive-interface loopback 0 C
 OR (optional)
 R1(config)# router rip
 R1(config-router)# passive-interface default
