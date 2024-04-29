@@ -29,10 +29,10 @@ Primary root switch.
 DLS1(config)# spanning-tree vlan 1 root primary
 Secondary root.
 ALS1(config)# spanning-tree vlan 1 root secondary
-DLS1# show run I include span
+DLS1# show run | include span
 spanning-tree mode pvst spanning-tree extend system-id spanning-tree vlan 1 priority 2457
 
-ALS1# show run I include span
+ALS1# show run | include span
 spanning-tree mode pvst spanning-tree
 extend system-id spanning-tree vlan 1
 priority 28672
