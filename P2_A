@@ -103,7 +103,7 @@ R3#show ip route
 
 Step 5: Generate a default route into OSPF
 R1(config)# router ospf 1
-R1(config-router)# default-information originate always
+R1(config-router)# default-information originate always.  --always nay yenar
 R2,R3# show ip route
 R3# ping 172.30.30.1
 R3# ping 192.168.103.1
